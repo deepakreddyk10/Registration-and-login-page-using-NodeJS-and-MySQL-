@@ -41,3 +41,17 @@ app.use('/auth', require('./routes/auth'));
 app.listen(1113, () => {
     console.log("server started at 1113");
 });
+
+
+
+//Create .env file and write below code
+
+DATABASE = database_name
+DATABASE_HOST = host_name
+DATABASE_USER = user_name
+DATABASE_PASSWORD = your_password
+JWT_SECRET = mysupersecretpassword
+JWT_EXPRIES_IN = 90d
+JWT_COOKIE_EXPIRES = 90
+
+
